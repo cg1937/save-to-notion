@@ -1,1 +1,1 @@
-# NewRepo
+A Tool of copying data to notion database
