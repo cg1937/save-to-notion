@@ -1,13 +1,13 @@
 # A Tool of copying data to notion database easily
 
-## **requirements:** \
+## **requirements:** 
 keyboard           0.13.5 \
 pyperclip          1.8.2 \
 PyYAML             6.0 \
 requests           2.28.1 \
 win10toast         0.9
 
-## **usage:**  \
+## **usage:**  
 1. read https://developers.notion.com/docs/getting-started and get your integration work on your notion database.
 2. continue to get your page_id
 3. make a config.yaml in the project's folder, its context likes:
