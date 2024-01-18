@@ -23,10 +23,26 @@ headers = {
 
 
 def get_clipboard_data():
+    """
+    Get the data from the clipboard.
+
+    Returns:
+        str: The data from the clipboard.
+    """
     return pyperclip.paste()
 
 
 def show_notification(title, msg):
+    """
+    Show a notification with a given title and message.
+
+    Args:
+        title (str): The title of the notification.
+        msg (str): The message to be displayed in the notification.
+
+    Returns:
+        None
+    """
     toast = ToastNotifier()
     toast.show_toast(title, msg, duration=2, threaded=True)
 
